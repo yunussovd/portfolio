@@ -2,9 +2,11 @@ body {
     background-color: #212121;
     font-family: 'Poppins', sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 0 auto 0 auto;
     width: 1440px;
+    height: 2940px;
     color: white;
+    box-shadow: rgb(0 0 0 / 30%) 0 0 84px;
 }
 
 .visually-hidden {
@@ -81,6 +83,8 @@ body {
 
 .social__link {
     margin-left: 24px;
+    text-decoration: none;
+    border-radius: 25%;
 }
 
 /*about me section*/
@@ -110,6 +114,7 @@ body {
     color: #4C70EF;
     font-size: 24px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .about-me__text {
@@ -126,9 +131,10 @@ body {
 }
 
 /*what i do section*/
-.what-i-do {
+.job {
     position: relative;
-    width: 980px;
+    margin: 0;
+    width: 1080px;
     height: 359px;
     left: 180px;
     right: 230px;
@@ -136,14 +142,13 @@ body {
 }
 
 .section__title_flex {
-    width: 1080px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.job {
+.professinal-skill {
     display: grid;
     grid-template-columns: 480px 480px;
     column-gap: 70px;
@@ -182,22 +187,14 @@ body {
     position: relative;
     margin-left: 130px;
     margin-right: 130px;
-    top: 280px;
+    top: 230px;
     width: 1180px;
     height: 406px;
 }
 
-
-.portfolio__title_flex {
-    width: 1180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .paragraph {
     font-size: 36px;
+    margin: 18px;
 }
 
 .projects {
@@ -241,10 +238,10 @@ body {
     height: 277px;
     left: 230px;
     right: 230px;
-    top: 550px;
+    top: 450px;
 }
 
-.text {
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -273,7 +270,7 @@ body {
 /*footer*/
 .page-footer {
     position: relative;
-    top: 650px;
+    top: 550px;
     width: 1440px;
     height: 156px;
     background-color: #292C36;
